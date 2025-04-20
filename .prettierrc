@@ -1,0 +1,35 @@
+{
+    "plugins": [
+        "prettier-plugin-tailwindcss"
+    ],
+    "tailwindFunctions": [
+        "clsx"
+    ],
+    "importOrder": [
+        "^(react/(.*)$)|^(react$)",
+        "^(next/(.*)$)|^(next$)",
+        "",
+        "<THIRD_PARTY_MODULES>",
+        "",
+        "^@containers/(.*)$",
+        "^@components/(.*)$",
+        "^[./]",
+        "",
+        "^@context/(.*)$",
+        "",
+        "^@hooks/(.*)$",
+        "^@helpers/(.*)$",
+        "^@utils/(.*)$",
+        "",
+        "^@assets/(.*)$",
+        "",
+        "^@styles/(.*)$"
+      ],
+    "tailwindPreserveWhitespace": true,
+    "tailwindPreserveDuplicates": true,
+    "printWidth": 100,
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true
+}
